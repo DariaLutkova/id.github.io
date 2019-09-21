@@ -281,7 +281,7 @@ window.onload = () => {
 		  	}
 		});
 }
-	 if (document.querySelector('.wow') && navigator.userAgent.match(/Android|iPad|iPhone|iPod/i) !== null ) {
+	 if (document.querySelector('.wow') && navigator.userAgent.match(/Android|iPad|iPhone|iPod/i) == null ) {
 	 	new WOW().init();
 	 }
 	 /*lightGallery(document.getElementById('gallery'), {
